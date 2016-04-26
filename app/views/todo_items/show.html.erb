@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @todo_item.description %>
+</p>
+
+<p>
+  <strong>Dateline:</strong>
+  <%= @todo_item.dateline %>
+</p>
+
+<p>
+  <strong>Datetime:</strong>
+  <%= @todo_item.datetime %>
+</p>
+
+<p>
+  <strong>Priority:</strong>
+  <%= @todo_item.priority %>
+</p>
+
+<p>
+  <strong>Integer:</strong>
+  <%= @todo_item.integer %>
+</p>
+
+<p>
+  <strong>Complete:</strong>
+  <%= @todo_item.complete %>
+</p>
+
+<p>
+  <strong>Boolean:</strong>
+  <%= @todo_item.boolean %>
+</p>
+
+<%= link_to 'Edit', edit_todo_item_path(@todo_item) %> |
+<%= link_to 'Back', todo_items_path %>
